@@ -1,0 +1,121 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .promo__wrap__content {
+        flex-direction: column;
+    }
+    .promo__wrap__content__info {
+        margin-top: 20px;
+    }
+    .promo__wrap__content__photo {
+        margin-left: auto;
+        margin-top: -50px;
+    }
+    .about__wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__wrap__left {
+        position: relative;
+        top: 0;
+    }
+    .about__wrap__left__photo {
+        width: 350px;
+    }
+    .about {
+        padding-top: 50px;
+    }
+    .about__wrap__info {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .about__wrap__info__title {
+        text-align: center;
+    }
+    .about__wrap__info__advantages__item {
+        width: 260px;
+    }
+    .about__wrap__info__advantages {
+        column-gap: 20px;
+    }
+    .about__wrap__info__method__progress {
+        column-gap: 200px;
+    }
+    .about__wrap__info__method__text {
+        column-gap: 162px;
+    }
+    .students__title {
+        font-size: 28px;
+    }
+    .students__wrap__item {
+        width: 100%;
+    }
+    .services__wrap__item {
+        width: 260px;
+        height: auto;
+        row-gap: 30px;
+    }
+    .services__wrap__item__header__title {
+        font-size: 22px;
+    }
+    .services__wrap__item__content__info__item {
+        font-size: 16px;
+    }
+    .services__wrap__item__content__single__title {
+        font-size: 18px;
+    }
+    .services__wrap__item__content__iskl__title {
+        font-size: 18px;
+    }
+    .services__wrap {
+        align-items: normal;
+    }
+    .services__wrap__item__content__info {
+        row-gap: 5px;
+    }
+    .services__wrap__item__info__divider {
+        display: none;
+    }
+    .services__wrap__item__info {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        row-gap: 30px;
+    }
+    .services__wrap__item__info__item__title {
+        font-size: 18px;
+    }
+    .contacts__wrap__item {
+        width: 100%;
+    }
+    .contacts__wrap {
+        row-gap: 10px;
+        margin-top: 15px;
+    }
+    .footer__wrap {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer__links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 10px;
+    }
+    .footer__links__list {
+        align-items: center;
+    }
+    .footer__links__rules {
+        order: 3;
+        margin-top: 20px;
+    }
+    .menu {
+        width: 50%;
+    }
+    
+}

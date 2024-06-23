@@ -1,0 +1,207 @@
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .menu {
+        display: block;
+    }
+    .promo__wrap__header__menu__nav {
+        display: none;
+    }
+    .promo__wrap__header__menu {
+        padding: 5px 15px 5px 5px;
+        column-gap: 20px;
+    }
+    .promo__wrap__header__menu__cta {
+        font-size: 14px;
+    }
+    .promo__wrap {
+        padding: 0;
+    }
+    .header__wrap__menu__list {
+        display: none;
+    }
+    .header__wrap__menu__hamburger {
+        display: flex;
+    }
+    .promo {
+        background-color: $gray-1;
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .promo__wrap__content {
+        padding-top: 0;
+    }
+    .promo__wrap__header {
+        display: none;
+    }
+    #header {
+        display: none;
+    }
+    #headerMob {
+        transform: translateY(0);
+    }
+    .promo__wrap__content__info__title {
+        font-size: 45px;
+    }
+    .promo__wrap__content__info__advantages__item {
+        font-size: 16px;
+    }
+    .header__wrap__menu__button {
+        font-size: 14px;
+    }
+    .about__wrap__left__photo {
+        width: 300px;
+    }
+    .about__wrap__info {
+        width: 400px;
+    }
+    .about__wrap__left__detail__icon {
+        width: 30px;
+        height: 30px;
+    }
+    .about__wrap__left__detail {
+        width: 70px;
+        height: 50px;
+    }
+    .about__wrap__left .about__wrap-flag {
+        top: 90px;
+        right: 0;
+    }
+    .about__wrap__info__title {
+        font-size: 36px;
+    }
+    .about__wrap__info__advantages__item__title {
+        font-size: 24px;
+    }
+    .about__wrap__info__advantages__item__description {
+        font-size: 14px;
+    }
+    .about__wrap__info__advantages__item__title span {
+        font-family: 'Inter-Medium';
+    }
+    .about__wrap__info__advantages__item {
+        width: 195px;
+    }
+    .about__wrap__info__advantages {
+        column-gap: 10px;
+    }
+    .about__wrap {
+        align-items: flex-start;
+    }
+    .about__wrap__info__method__title {
+        font-size: 22px;
+    }
+    .about__wrap__info__method {
+        margin-top: 30px;
+    }
+    .about__wrap__info__method__text h5 {
+        font-size: 18px;
+    }
+    .about__wrap__info__method__progress__left {
+        font-size: 24px;
+    }
+    .about__wrap__info__method__progress {
+        height: 42px;
+        column-gap: 150px;
+    }
+    .about__wrap__info__method__progress__right {
+        font-size: 24px;
+    }
+    .about__wrap__left {
+        position: sticky;
+        top: 100px;
+    }
+    .students__title {
+        font-size: 32px;
+    }
+    .students__wrap__item__info__title {
+        font-size: 22px;
+    }
+    .students__wrap__item__number {
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+    }
+    .students__wrap__item__info {
+        margin-top: 30px;
+    }
+    .students__wrap__item__info__text {
+        font-size: 14px;
+    }
+    .students__wrap__item {
+        width: 350px;
+    }
+    .students__wrap {
+        row-gap: 20px;
+    }
+    .services__title {
+        font-size: 32px;
+    }
+    .services__wrap__item {
+        width: 350px;
+    }
+    .services {
+        border-radius: 50px 50px 0 0;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .services__wrap__item__content__info__item {
+        font-size: 18px;
+    }
+    .services__wrap__item__content__single__title span {
+        font-size: 30px;
+    }
+    .services__wrap__item__header__title {
+        font-size: 24px;
+    }
+    .services__wrap__item {
+        height: 400px;
+    }
+    .services__wrap .services__children {
+        width: 100%;
+    }
+    .services__wrap__item__info__item__title {
+        font-size: 17px;
+    }
+    .reviews__title {
+        font-size: 32px;
+    }
+    .reviews__wrap .splide__slide__image {
+        height: 300px;
+    }
+    .contacts__title {
+        font-size: 32px;
+    }
+    .contacts {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .contacts__wrap__item__header__title {
+        font-size: 16px;
+    }
+    .contacts__wrap__item {
+        width: 230px;
+    }
+    .contacts__wrap__item__header__icon {
+        width: 35px;
+        height: 35px;
+    }
+    .contacts__wrap__item__arrow {
+        width: 20px;
+        height: 20px;
+    }
+    .header__wrap__logo__icon {
+        width: 160px;
+    }
+    .footer__wrap__logo__icon {
+        width: 160px;
+    }
+    .footer__wrap__socials__item__icon {
+        width: 35px;
+        height: 35px;
+    }
+    .footer__links__rules {
+        font-size: 13px;
+    }
+}

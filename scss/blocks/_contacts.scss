@@ -1,0 +1,60 @@
+.contacts {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 110px;
+    &__title {
+        font-size: 45px;
+        font-family: 'Bebas';
+        color: $dark;
+        span {
+            font-family: 'Bebas';
+            color: $red;
+        }
+    }
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        &__item {
+            width: 380px;
+            border-radius: 20px;
+            background-color: $dark;
+            transition: 0.3s linear;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 35px;
+            position: relative;
+            transition: 0.3s linear;
+            &:hover {
+                background-color: #000000;
+            }
+            &:hover .contacts__wrap__item__arrow {
+                transform: rotate(45deg);
+            }
+            &__header {
+                display: flex;
+                align-items: center;
+                column-gap: 10px;
+                &__icon {
+                    width: 40px;
+                    height: 40px;
+                    transition: 0.3s linear;
+                }
+                &__title {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #fff;
+                    font-family: 'Inter-Semibold';
+                }
+            }
+            &__arrow {
+                width: 24px;
+                height: 24px;
+                transition: 0.3s linear;
+            }
+        }
+    }
+}

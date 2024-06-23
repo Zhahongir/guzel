@@ -1,0 +1,135 @@
+.promo {
+    position: relative;
+    margin-top: 20px;
+    &__wrap {
+        position: relative;
+        border-radius: 20px;
+        background-color: $gray-1;
+        padding: 20px 50px 0 50px;
+        &__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__logo {
+                position: relative;
+                &__icon {
+                    width: 190px;
+                    height: 55px;
+                    object-fit: cover;
+                    cursor: pointer;
+                    transition: 0.3s linear;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+            &__menu {
+                display: flex;
+                align-items: center;
+                background-color: #fff;
+                padding: 5px 5px 5px 40px;
+                border-radius: 20px;
+                position: relative;
+                column-gap: 60px;
+                &__nav {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 25px;
+                    &__item {
+                        position: relative;
+                        &__link {
+                            font-size: 16px;
+                            font-weight: 500;
+                            font-family: 'Inter-Medium';
+                            color: $dark;
+                            transition: 0.3s linear;
+                            &:hover {
+                                color: $red;
+                            }
+                        }
+                    }
+                }
+                &__cta {
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: 'Inter-Semibold';
+                    text-align: center;
+                    border: none;
+                    background-color: $red;
+                    transition: 0.3s linear;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    padding: 16px 28px;
+                    color: #fff;
+                    &:hover {
+                        background-color: $dark;
+                    }
+                }
+            }
+        }
+        &__content {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 26px;
+            &__info {
+                position: relative;
+                margin-top: 80px;
+                &__title {
+                    font-size: 70px;
+                    font-family: 'Bebas';
+                    font-weight: 400;
+                    color: $red;
+                    text-transform: uppercase;
+                    width: 621px;
+                    span {
+                        font-family: 'Bebas';
+                        font-weight: 400;
+                        color: $dark;
+                    }
+                }
+                &__advantages {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    margin-top: 20px;
+                    &__item {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        font-family: 'Inter-Medium';
+                        color: $dark;
+                        &__icon {
+                            width: 30px;
+                            height: 30px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+                &__cta {
+                    font-size: 16px;
+                    margin-top: 35px;
+                    background-color: $red;
+                    color: #fff;
+                    font-family: 'Inter-Semibold';
+                    font-weight: 600;
+                    border-radius: 20px;
+                    padding: 18px 35px;
+                    transition: 0.3s linear;
+                    cursor: pointer;
+                    border: none;
+                    &:hover {
+                        background-color: $dark;
+                    }
+                }
+            }
+            &__photo {
+                width: 500px;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

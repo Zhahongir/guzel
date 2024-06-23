@@ -1,0 +1,83 @@
+.footer {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: $gray-1;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            &__icon {
+                width: 190px;
+                height: 100%;
+                object-fit: cover;
+                cursor: pointer;
+                transition: 0.3s linear;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+        &__list {
+            display: flex;
+            align-items: center;
+            column-gap: 25px;
+            &__item {
+                position: relative;
+                &__link {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: 'Inter-Medium';
+                    color: $dark;
+                    transition: 0.3s linear;
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+        }
+        &__socials {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            &__item {
+                &__icon {
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    transition: 0.3s linear;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+    &__links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 40px;
+        &__page {
+            font-size: 14px;
+            color: #505050;
+            text-decoration: underline;
+            transition: 0.3s linear;
+            &:hover {
+                color: #000;
+            }
+        }
+        &__rules {
+            text-align: center;
+            font-size: 14px;
+            color: #505050;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 10px;
+        }
+    }
+}

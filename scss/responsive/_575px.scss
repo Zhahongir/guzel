@@ -1,0 +1,149 @@
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__wrap__menu__button {
+        display: none;
+    }
+    .header__wrap__logo__icon {
+        width: 150px;
+    }
+    .promo__wrap__content__info__title {
+        font-size: 38px;
+    }
+    .promo__wrap__content__info__advantages__item {
+        font-size: 15px;
+    }
+    .promo__wrap__content__info__advantages__item__icon {
+        width: 25px;
+        height: 25px;
+    }
+    .promo__wrap__content__info__cta {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .promo__wrap__content__photo {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .about__wrap__left__photo {
+        width: 290px;
+    }
+    .about__wrap__left .about__wrap-flag {
+        right: -10px;
+    }
+    .about__wrap__left .about__wrap-teacher {
+        bottom: 90px;
+    }
+    .about__wrap__left .about__wrap-books {
+        bottom: 20px;
+    }
+    .about__wrap__info__advantages {
+        justify-content: center;
+        align-items: center;
+    }
+    .about__wrap__info__advantages__item {
+        width: 310px;
+    }
+    .about__wrap__info__advantages__item__title {
+        font-size: 28px;
+    }
+    .about__wrap__info__advantages__item__description {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .about__wrap__info__method__text {
+        column-gap: 70px;
+    }
+    .about__wrap__info__method__progress__left {
+        width: 20%;
+    }
+    .about__wrap__info__method__progress {
+        column-gap: 110px;
+        max-width: 370px;
+    }
+    .about__wrap__info__method__text {
+        column-gap: 40px;
+    }
+    .students {
+        padding-top: 80px;
+    }
+    .students__title {
+        font-size: 23px;
+    }
+    .services__wrap__item {
+        width: 100%;
+        max-width: 380px;
+    }
+    .services__title {
+        text-align: center;
+    }
+    .services__wrap__item__button {
+        font-size: 14px;
+    }
+    .services__wrap__item__content__single__title {
+        font-size: 16px;
+    }
+    .services__wrap__item__content__info__item {
+        font-size: 17px;
+    }
+    .services__wrap__item__content__iskl__title {
+        font-size: 17px;
+    }
+    .services__wrap__item__info__item {
+        text-align: center;
+    }
+    .reviews__title {
+        font-size: 28px;
+    }
+    .reviews__wrap .splide__slide__image {
+        height: 280px;
+    }
+    .contacts__title {
+        font-size: 28px;
+    }
+    .contacts {
+        padding-top: 60px;
+    }
+    .footer__wrap__list {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .footer__wrap__list__item__link {
+        font-size: 15px;
+    }
+    .footer__wrap {
+        row-gap: 30px;
+    }
+    .menu {
+        width: 70%;
+    }
+
+    .menu__inner__nav__item a {
+        font-size: 22px;
+    }
+    .menu__button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .modal {
+        width: 90%;
+        padding: 35px 20px 40px 20px;
+    }
+    .modal__wrap a {
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    .modal__wrap__descr {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .modal__wrap__title {
+        margin-bottom: 0;
+    }
+}

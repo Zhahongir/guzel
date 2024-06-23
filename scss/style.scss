@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter-Regular', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div, a, button, span, p {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title-dark {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Buyan';
+    color: #303030;
+}
+
+.title-dark span {
+    font-weight: 700;
+    font-family: 'Buyan';
+    color: #ED2B47;
+}
+
+.title-white {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Buyan';
+    color: #fff;
+}
+
+.title-white span {
+    font-weight: 700;
+    font-family: 'Buyan';
+    color: #ED2B47;
+}
+
+// Default
+@import '../scss/fonts';
+@import '../scss/vars';
+
+// Blocks
+@import '../scss/blocks/header';
+@import '../scss/blocks/promo';
+@import '../scss/blocks/about';
+@import '../scss/blocks/students';
+@import '../scss/blocks/services';
+@import '../scss/blocks/reviews';
+@import '../scss/blocks/contacts';
+@import '../scss/blocks/footer';
+
+// Responsive
+@import '../scss/responsive/1199px';
+@import '../scss/responsive/991px';
+@import '../scss/responsive/767px';
+@import '../scss/responsive/575px';
