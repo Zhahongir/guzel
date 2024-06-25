@@ -1396,6 +1396,7 @@ div, a, button, span, p {
 .footer__links__list__note {
   font-size: 10px;
   font-weight: 400;
+  color: #505050;
 }
 
 .privacy {
