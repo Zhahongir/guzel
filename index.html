@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Гузель | Английский Онлайн</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon.ico">
+
+    <!-- Keywords -->
+    <meta name="description" content="Изучай английский язык легко и быстро!" />
+    <meta name="keywords" content="репетитор по английскому языку, индивидуальные уроки английского, групповые занятия по английскому, парные занятия по английскому, корпоративный английский, английский для детей, английский для детей 4-14 лет, уроки английского языка, курсы английского языка, занятия английским в группе, репетитор для детей по английскому, корпоративные курсы английского, изучение английского языка, уроки английского онлайн, курсы английского для детей, преподаватель английского, английский для начинающих, английский для школьников, подготовка к экзаменам по английскому, репетитор по английскому для взрослых, разговорный английский, бизнес-английский, подготовка к TOEFL, подготовка к IELTS, репетитор по английскому с носителем языка, уроки английского языка для детей, уроки английского языка для взрослых, интенсивные курсы английского, репетитор английского онлайн, занятия английским по скайпу, корпоративное обучение английскому, индивидуальные занятия по английскому, уроки английского для малышей, подготовка к ОГЭ по английскому, подготовка к ЕГЭ по английскому, репетитор по английскому для школьников, уроки английского для подростков, английский язык для бизнеса, обучение деловому английскому, репетитор по английскому для начинающих, английский для путешествий, разговорные клубы на английском, репетитор по грамматике английского, репетитор по фонетике английского, занятия английским для корпоративных клиентов, репетитор по английскому онлайн для детей">
+
+    <!-- OG -->
+    <meta property="og:title" content="Гузель | Английский Онлайн" />
+    <meta property="og:description" content="Изучай английский язык легко и быстро!" />
+    <meta property="og:image" content="https://guzelenglish.ru/icons/logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://guzelenglish.ru" />
+    <meta name="robots" content="all">
+
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
@@ -122,7 +141,10 @@
                                 Максимум разговорной практики
                             </li>
                         </ul>
-                        <button data-modal="callBack" class="promo__wrap__content__info__cta">Записаться на урок</button>
+                        <div class="promo__wrap__content__info__button">
+                            <button data-modal="callBack" class="promo__wrap__content__info__cta">Записаться на урок</button>
+                            <p class="promo__wrap__content__info__description">Пробный бесплатный урок по промокоду <span>«САЙТ»</span></p>
+                        </div>
                     </div>
                     <img src="images/promo-photo.webp" alt="Гузель" class="promo__wrap__content__photo">
                 </div>
@@ -134,6 +156,9 @@
         <div class="container">
             <div class="about__wrap">
                 <div class="about__wrap__left">
+                    <h2 class="about__wrap__left__title about__wrap__info__title">Привет, <br>
+                        Меня зовут <span>Гузель</span>
+                    </h2>
                     <img src="images/about-photo.webp" alt="Гузель" class="about__wrap__left__photo">
                     <div class="about__wrap__left__detail about__wrap-flag">
                         <img src="icons/en-flag.webp" alt="flag" class="about__wrap__left__detail__icon">
@@ -256,7 +281,7 @@
                 <div class="services__wrap__item">
                     <div class="services__wrap__item__header service-3">
                         <img src="icons/service-3.svg" alt="service" class="services__wrap__item__header__icon service-3__icon">
-                        <h3 class="services__wrap__item__header__title">Индивидуальные уроки</h3>
+                        <h3 class="services__wrap__item__header__title">Парные занятия</h3>
                         <img src="icons/curve.svg" alt="curve" class="services__wrap__item__header__bg">
                     </div>
                     <div class="services__wrap__item__content">
@@ -445,13 +470,9 @@
                 </div>
             </div>
             <div class="footer__links">
-                <a href="#" target="_blank" class="footer__links__page">Условия использования</a>
-                <div class="footer__links__rules">© 2024, Гузель | Английский Онлайн <br><br>
-                    Все права защищены
-                </div>
+                <div class="footer__links__rules">© Все права защищены. Гузель – Английский&nbsp;Онлайн, 2024</div>
                 <div class="footer__links__list">
-                    <a href="#" target="_blank" class="footer__links__page">Политика конфиденциальности</a>
-                    <a href="#" target="_blank" class="footer__links__page">Договор оферты</a>
+                    <a href="privacy.html" target="_blank" class="footer__links__page">Политика конфиденциальности</a>
                 </div>
             </div>
         </div>
@@ -491,31 +512,43 @@
     <script src="js/app.js"></script>
 
     <script>
-        jQuery(document).ready(function() { 
-        jQuery('[data-modal=callBack]').on('click', function() {
-            jQuery('.modal-ru').fadeIn();
-        });
-        jQuery('.modal__close').on('click', function() {
-            jQuery('.bg-modal').fadeOut();
-        });
-        });
-    </script>
-    <script>
         // Anchor
         const anchors = document.querySelectorAll('a[href*="#"]');
 
         for (let anchor of anchors) {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            
-            const blockID = anchor.getAttribute('href').substr(1);
-            
-            document.getElementById(blockID).scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const blockID = anchor.getAttribute('href').substr(1);
+                const element = document.getElementById(blockID);
+
+                const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+
+                window.scrollTo({
+                    top: elementPosition - 68,
+                    behavior: 'smooth'
+                });
             });
-        });
         }
+    </script>
+
+    <script>
+        // Autoplay 
+        const splide = new Splide( '.splide', {
+            type   : 'loop',
+            drag   : 'free',
+            focus  : 'center',
+            perPage: 4,
+            arrows: false,
+            autoWidth: true,
+            pagination: false,
+            gap: 25,
+            autoScroll: {
+                speed: 1,
+            },
+        } );
+        
+        splide.mount(window.splide.Extensions);
     </script>
 </body>
 </html>

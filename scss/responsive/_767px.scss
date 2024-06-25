@@ -23,6 +23,10 @@
     }
     .about__wrap__left__photo {
         width: 350px;
+        margin-top: 20px;
+    }
+    .about__wrap__left .about__wrap-flag {
+        top: 190px;
     }
     .about {
         padding-top: 50px;
@@ -35,12 +39,17 @@
     }
     .about__wrap__info__title {
         text-align: center;
+        display: none;
+    }
+    .about__wrap__left__title {
+        display: block;
     }
     .about__wrap__info__advantages__item {
         width: 260px;
     }
     .about__wrap__info__advantages {
         column-gap: 20px;
+        margin-top: 0;
     }
     .about__wrap__info__method__progress {
         column-gap: 200px;
@@ -116,6 +125,21 @@
     }
     .menu {
         width: 50%;
+    }
+    .menu__inner__nav__item {
+        margin-bottom: 20px;
+    }
+    .privacy__title {
+        font-size: 18px;
+    }
+    .privacy__wrap__title {
+        font-size: 16px;
+    }
+    .privacy__wrap__subtitle {
+        font-size: 15px;
+    }
+    .privacy__wrap__list__item {
+        font-size: 15px;
     }
     
 }

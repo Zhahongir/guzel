@@ -110,7 +110,6 @@
                 }
                 &__cta {
                     font-size: 16px;
-                    margin-top: 35px;
                     background-color: $red;
                     color: #fff;
                     font-family: 'Inter-Semibold';
@@ -123,6 +122,25 @@
                     &:hover {
                         background-color: $dark;
                     }
+                }
+                &__description {
+                    width: 230px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-family: 'Inter-Medium';
+                    color: $dark;
+                    span {
+                        font-weight: 600;
+                        font-family: 'Inter-Semibold';
+                        color: $red;
+                    }
+                }
+                &__button {
+                    position: relative;
+                    margin-top: 35px;
+                    display: flex;
+                    align-items: center;
+                    column-gap: 20px;
                 }
             }
             &__photo {

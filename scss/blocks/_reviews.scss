@@ -11,10 +11,18 @@
         }
     }
     &__wrap {
-        position: relative;
+        position: relative !important;
         margin-top: 25px;
+        .splide__slide {
+            display: flex;
+            align-items: center;
+            height: max-content;
+            width: max-content;
+            object-fit: cover;
+        }
         .splide__slide__image {
-            width: 100% !important;
+            display: flex;
+            min-width: 100% !important;
             height: 350px !important;
             border-radius: 10px;
             object-fit: cover !important;

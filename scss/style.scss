@@ -28,32 +28,6 @@ div, a, button, span, p {
     margin: 0 auto;
 }
 
-.title-dark {
-    font-size: 56px;
-    font-weight: 700;
-    font-family: 'Buyan';
-    color: #303030;
-}
-
-.title-dark span {
-    font-weight: 700;
-    font-family: 'Buyan';
-    color: #ED2B47;
-}
-
-.title-white {
-    font-size: 56px;
-    font-weight: 700;
-    font-family: 'Buyan';
-    color: #fff;
-}
-
-.title-white span {
-    font-weight: 700;
-    font-family: 'Buyan';
-    color: #ED2B47;
-}
-
 // Default
 @import '../scss/fonts';
 @import '../scss/vars';
@@ -67,6 +41,7 @@ div, a, button, span, p {
 @import '../scss/blocks/reviews';
 @import '../scss/blocks/contacts';
 @import '../scss/blocks/footer';
+@import '../scss/blocks/privacy';
 
 // Responsive
 @import '../scss/responsive/1199px';

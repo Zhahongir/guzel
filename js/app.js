@@ -1,21 +1,3 @@
-// Autoplay 
-const splide = new Splide( '.splide', {
-    type   : 'loop',
-    drag   : 'free',
-    focus  : 'center',
-    perPage: 4,
-    arrows: false,
-    autoWidth: true,
-    pagination: false,
-    gap: 25,
-    autoScroll: {
-        speed: 1,
-    },
-  } );
-  
-splide.mount(window.splide.Extensions);
-
-
 document.addEventListener("DOMContentLoaded", function() {
     var header = document.getElementById("header");
 
@@ -46,5 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
             menu.classList.remove('open');
             hamburgers.forEach(hamburger => hamburger.classList.remove('active'));
         });
+    });
+});
+
+jQuery(document).ready(function() { 
+    jQuery('[data-modal=callBack]').on('click', function() {
+        jQuery('.modal-ru').fadeIn();
+    });
+    jQuery('.modal__close').on('click', function() {
+        jQuery('.bg-modal').fadeOut();
     });
 });

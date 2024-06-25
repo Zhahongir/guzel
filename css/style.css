@@ -29,32 +29,6 @@ div, a, button, span, p {
   margin: 0 auto;
 }
 
-.title-dark {
-  font-size: 56px;
-  font-weight: 700;
-  font-family: "Buyan";
-  color: #303030;
-}
-
-.title-dark span {
-  font-weight: 700;
-  font-family: "Buyan";
-  color: #ED2B47;
-}
-
-.title-white {
-  font-size: 56px;
-  font-weight: 700;
-  font-family: "Buyan";
-  color: #fff;
-}
-
-.title-white span {
-  font-weight: 700;
-  font-family: "Buyan";
-  color: #ED2B47;
-}
-
 @font-face {
   font-family: "Bebas";
   src: url(../fonts/Bebas-Neue.woff2), url(../fonts/Bebas-Neue.woff2);
@@ -567,7 +541,6 @@ div, a, button, span, p {
 }
 .promo__wrap__content__info__cta {
   font-size: 16px;
-  margin-top: 35px;
   background-color: #FC0233;
   color: #fff;
   font-family: "Inter-Semibold";
@@ -581,6 +554,31 @@ div, a, button, span, p {
 }
 .promo__wrap__content__info__cta:hover {
   background-color: #505050;
+}
+.promo__wrap__content__info__description {
+  width: 230px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter-Medium";
+  color: #505050;
+}
+.promo__wrap__content__info__description span {
+  font-weight: 600;
+  font-family: "Inter-Semibold";
+  color: #FC0233;
+}
+.promo__wrap__content__info__button {
+  position: relative;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
 }
 .promo__wrap__content__photo {
   width: 500px;
@@ -606,6 +604,9 @@ div, a, button, span, p {
 }
 .about__wrap__left {
   position: relative;
+}
+.about__wrap__left__title {
+  display: none;
 }
 .about__wrap__left__photo {
   width: 430px;
@@ -1162,11 +1163,30 @@ div, a, button, span, p {
   color: #FC0233;
 }
 .reviews__wrap {
-  position: relative;
+  position: relative !important;
   margin-top: 25px;
 }
+.reviews__wrap .splide__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .reviews__wrap .splide__slide__image {
-  width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100% !important;
   height: 350px !important;
   border-radius: 10px;
   -o-object-fit: cover !important;
@@ -1374,6 +1394,53 @@ div, a, button, span, p {
   row-gap: 10px;
 }
 
+.privacy {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.privacy__title {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Inter-Medium";
+  color: #505050;
+}
+.privacy__wrap {
+  margin-top: 30px;
+}
+.privacy__wrap__title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter-Medium";
+  color: #505050;
+}
+.privacy__wrap__subtitle {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter-Medium";
+  color: #505050;
+}
+.privacy__wrap__list {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.privacy__wrap__list__item {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #505050;
+}
+.privacy__wrap__list__item a {
+  color: #FC0233;
+  font-weight: 500;
+  font-family: "Inter-Medium";
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.privacy__wrap__list__item a:hover {
+  color: #505050;
+}
+
 @media screen and (max-width: 1199px) {
   .container {
     width: 960px;
@@ -1478,6 +1545,24 @@ div, a, button, span, p {
   }
   .promo__wrap__header__menu__nav {
     display: none;
+  }
+  .promo__wrap__content__info {
+    margin-top: 25px;
+  }
+  .promo__wrap__content__info__button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    row-gap: 10px;
+  }
+  .promo__wrap__content__info__description {
+    font-size: 13px;
+    width: 228px;
+    text-align: center;
   }
   .promo__wrap__header__menu {
     padding: 5px 15px 5px 5px;
@@ -1623,6 +1708,34 @@ div, a, button, span, p {
   .services__wrap__item {
     width: 350px;
   }
+  .services__wrap__item:nth-child(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .services__wrap__item:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .services__wrap__item:nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .services__wrap__item:nth-child(4) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .services__wrap .services__children {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .services__wrap__item__header__bg {
+    width: 100%;
+  }
   .services {
     border-radius: 50px 50px 0 0;
     padding-top: 50px;
@@ -1722,6 +1835,10 @@ div, a, button, span, p {
   }
   .about__wrap__left__photo {
     width: 350px;
+    margin-top: 20px;
+  }
+  .about__wrap__left .about__wrap-flag {
+    top: 190px;
   }
   .about {
     padding-top: 50px;
@@ -1738,6 +1855,10 @@ div, a, button, span, p {
   }
   .about__wrap__info__title {
     text-align: center;
+    display: none;
+  }
+  .about__wrap__left__title {
+    display: block;
   }
   .about__wrap__info__advantages__item {
     width: 260px;
@@ -1746,6 +1867,7 @@ div, a, button, span, p {
     -webkit-column-gap: 20px;
        -moz-column-gap: 20px;
             column-gap: 20px;
+    margin-top: 0;
   }
   .about__wrap__info__method__progress {
     -webkit-column-gap: 200px;
@@ -1847,6 +1969,21 @@ div, a, button, span, p {
   .menu {
     width: 50%;
   }
+  .menu__inner__nav__item {
+    margin-bottom: 20px;
+  }
+  .privacy__title {
+    font-size: 18px;
+  }
+  .privacy__wrap__title {
+    font-size: 16px;
+  }
+  .privacy__wrap__subtitle {
+    font-size: 15px;
+  }
+  .privacy__wrap__list__item {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 575px) {
   .container {
@@ -1870,12 +2007,17 @@ div, a, button, span, p {
     width: 25px;
     height: 25px;
   }
-  .promo__wrap__content__info__cta {
-    font-size: 15px;
+  .promo__wrap__content__info__button {
     margin-top: 25px;
   }
+  .promo__wrap__content__info__cta {
+    font-size: 15px;
+  }
+  .promo__wrap__content__info__description {
+    width: 218px;
+  }
   .promo__wrap__content__photo {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 0;
     width: 100%;
   }
