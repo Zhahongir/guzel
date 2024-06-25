@@ -1393,6 +1393,10 @@ div, a, button, span, p {
           align-items: flex-end;
   row-gap: 10px;
 }
+.footer__links__list__note {
+  font-size: 10px;
+  font-weight: 400;
+}
 
 .privacy {
   padding-top: 120px;
